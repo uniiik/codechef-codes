@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t ;
+	cin>>t; 
+	int i=0;
+	while(i<t)
+	{int s1,s2,e1,e2;
+	cin>>s1>>s2>>e1>>e2;
+	
+	
+	if(s1==e1 || s2==e2)
+	{cout<<"2"<<endl;}
+	else if(s1!=e1 || s2!=e2)
+	{cout<<"1"<<endl;}
+	else
+	{cout<<"some error occured"<<endl;}
+	    
+	    
+	    
+	    i++;
+	}
+	return 0;
+}
