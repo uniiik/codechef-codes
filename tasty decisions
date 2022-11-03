@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t>0)
+	{
+	    int ch;//2
+	    int cy;//5
+	    cin>>ch>>cy;
+	    int p=ch*2;
+	    int q=cy*5;
+	    if(p==q)
+	    {
+	        cout<<"Either"<<endl;
+	    }
+	    else if(p>q)
+	    {
+	        cout<<"Chocolate"<<endl;
+	    }
+	    else if(p<q)
+	    {
+	        cout<<"Candy"<<endl;
+	    }
+	    
+	    
+	    t--;
+	}
+	return 0;
+}
